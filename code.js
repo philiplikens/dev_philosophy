@@ -20,3 +20,4 @@ function newProject(time)
 	return result;
 }
 var currentProject = newProject("constrained");
+alert(JSON.stringify(currentProject, null, 4));
